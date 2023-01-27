@@ -1,4 +1,4 @@
-# Prettier for Melody
+# Prettier for Twig
 
 ![Prettier Banner](https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png)
 
@@ -9,13 +9,13 @@ This Plugin enables Prettier to format `.twig` files, as well as `.html.twig` an
 ## Install
 
 ```bash
-yarn add --dev prettier-plugin-twig-melody
+yarn add --dev prettier-plugin-twig
 ```
 
 ## Use
 
 ```bash
-prettier --write "**/*.melody.twig"
+prettier --write "**/*.twig"
 ```
 
 In your editor, if the plugin is not automatically picked up and invoked (e.g., if you are using format on save, but no formatting is happening when you save), try adding the plugin explicitly in your Prettier configuration (e.g., `.prettierrc.json`) using the `plugins` key:
@@ -24,7 +24,7 @@ In your editor, if the plugin is not automatically picked up and invoked (e.g., 
 {
     "printWidth": 80,
     "tabWidth": 4,
-    "plugins": ["./node_modules/prettier-plugin-twig-melody"]
+    "plugins": ["./node_modules/prettier-plugin-twig"]
 }
 ```
 

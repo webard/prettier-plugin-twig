@@ -1,10 +1,10 @@
 {
-    "name": "prettier-plugin-twig-melody",
-    "version": "0.4.6",
-    "description": "Prettier Plugin for Twig/Melody",
+    "name": "prettier-plugin-twig",
+    "version": "1.0.1",
+    "description": "Prettier Plugin for Twig",
     "main": "src",
-    "repository": "https://github.com/trivago/prettier-plugin-twig-melody",
-    "author": "Tom Bartel <thomas.bartel@trivago.com>",
+    "repository": "https://github.com/webard/prettier-plugin-twig",
+    "author": "Webard <github@webard.me>",
     "license": "Apache 2.0",
     "files": [
         "src"
